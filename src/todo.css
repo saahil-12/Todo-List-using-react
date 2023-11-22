@@ -1,0 +1,113 @@
+body {
+  background-color: #ffffe5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.addInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderListing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.listing {
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+}
+
+.listing > div {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.textspan {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.indexspan {
+  display: flex;
+  justify-content: flex-start;
+  width: 10%;
+
+}
+
+/* Style for the input field */
+input[type="text"] {
+  width: 40%;
+  padding: 8px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Style for the Add Task button */
+button {
+  /* padding: 8px 16px; */
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the task list */
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Style for completed tasks */
+span {
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+span.completed {
+  text-decoration: line-through;
+}
+
+/* Style for the Complete and Delete buttons */
+button {
+  padding: 8px 8px;
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: auto;
+  cursor: pointer;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button.complete {
+  background-color: green;
+  padding: 20px;
+  justify-content: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
